@@ -58,24 +58,24 @@
 
 // The formula for the average is (age1 + age2 + ... + ageN) / N. 
 
-let john = { name: "John", age: 25 }
-let pete = { name: "Pete", age: 30 }
-let mary = { name: "Mary", age: 29 }
+// let john = { name: "John", age: 25 }
+// let pete = { name: "Pete", age: 30 }
+// let mary = { name: "Mary", age: 29 }
 
-let arr = [john, pete, mary]
+// let arr = [john, pete, mary]
 
-const getAverageAge = users => {
-    let averAge = 0;
+// const getAverageAge = users => {
+//     let averAge = 0;
 
-    users.map( ages => {
-      averAge += ages.age / arr.length;
-    });
+//     users.map( ages => {
+//       averAge += ages.age / arr.length;
+//     });
 
-    console.log(averAge);
+//     console.log(averAge);
 
-}
+// }
 
-getAverageAge(arr)
+// getAverageAge(arr)
 
 
 
